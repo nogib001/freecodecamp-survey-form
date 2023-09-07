@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta title="Build a Survey Form" />
+<meta description="This Survey Form is built from scratch!" />
+<link rel="styles.css" type="stylesheet" />
+<title>Build a Survey Form</title>
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"> Thank you for taking the time to help us improve the platform.</p>
+</body>
+<form id="survey-form">
+<label id="name-label">Name</label>
+<input id="name" type="text" placeholder="Enter your name" required />
+<label id="email-label">E-mail</label>
+<input id="email" type="email" placeholder="Enter your e-mail" required />
+<label id="number-label">Number</label>
+<input id="number" type="number" min="9" max="9" placeholder="Enter our phone number"/>
+<select id="dropdown">
+<option>1</option>
+<option>2</option>
+</select>
+<input type="radio" name="radio" value="first-radio" />
+<input type="radio" name="radio" value="second-radio" />
+<input type="checkbox" name="checkbox" value="checkbox-1" />
+<input type="checkbox" name="checkbox" value="checkbox-2" />
+<textarea id="additional-info" type="text" placeholder="Enter some additional info" placeholder="Any additional info?"></textarea>
+<input type="submit" id="submit" value="Submit" name="submit"/>
+</form>
+</html>
